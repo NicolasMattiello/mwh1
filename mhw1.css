@@ -471,6 +471,9 @@ body{
 
     .footer_column_menu-query{
         display: inline;
+        width: 24px;
+        height: 24px;
+        fill: #494949;
     }
 
 
