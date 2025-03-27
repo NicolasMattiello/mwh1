@@ -1,0 +1,477 @@
+body{
+    margin: 0px;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+#adBanner{
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#header{
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: white;
+    position: sticky;
+    top: 40px;
+    z-index: 1;
+}
+
+#header_first{
+    height: 60px;
+    padding-top: 5px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_first_nav{
+    width: 40%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#header_first_nav_query{
+    display: none;
+}
+
+#header_first_nav_list{
+    width: 90%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+}
+
+.header_first_nav_list_item{
+    width: 16.6%;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_first_nav_list_item_link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_first_nav_list_item:hover{
+    background-color: black;
+    color: white;
+}
+
+#header_first_logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+#header_first_logo_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 60%;
+}
+
+#header_first_logo_link img{
+    display: block;
+    width: 100%;
+}
+
+#header_first_personal{
+    width: 40%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 3%;
+}
+
+.header_first_personal_link{
+    display: inline-block;
+}
+
+.icons{
+    height: 30px;
+    width: 30px;
+    fill: black;
+}
+
+#header_second{
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    display: flex;
+ }
+
+#header_second_nav{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header_second_nav_list{
+    width: 100%;
+    padding: 0px 0px 0px 5px;
+    margin: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.header_second_nav_list_item{
+    width: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+#header_first_nav_list-sconti{
+    color: #CB0000;
+}
+
+#header_first_nav_list-sconti:hover{
+    color: white;
+}
+
+.header_second_nav_list_item_link{
+    text-decoration: none;
+    color: inherit;
+}
+ 
+.header_second_nav_list_item:hover{
+    color: white;
+    background-color: black;
+}
+
+#header_second_search{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#header_second_search_input{
+    height: 50%;
+    width: 60%;
+    padding-left: 5px;
+    border: 1px solid #d2d2d2;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    color: #999999;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#highlighted{
+    margin: 30px 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.highlighted_img{
+    width: 45%;
+    aspect-ratio: 1/1;
+    background-size: cover;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+#Desert-mood{
+    background-image: url(https://static.lvrcdn.com/content/uploads/2025/03/blocktile-new/desktop-mobile-app-men-DesertMood-19-03-2025.jpg?impolicy=shopwindow&imwidth=780&imdensity=2);
+}
+
+#Desert-mood_overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+}
+
+#McQueen-Primavera-Estate-2025{
+    background-image: url(https://static.lvrcdn.com/content/uploads/2025/03/blocktile-new/desktop-mobile-app-men-mcqueen-20-03-2025.jpg?impolicy=shopwindow&imwidth=780&imdensity=2);
+}
+
+#McQueen-Primavera-Estate-2025_overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 5%;
+}
+
+._overlay_caption_h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+._overlay_caption_p{
+    margin: 0;
+    font-size: 15px;
+
+}
+
+#suggestions{
+    display: flex;
+    justify-content: flex;
+    margin: 45px 30px;
+}
+
+#suggestions_melo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#suggestions_melo_h1{
+    font-size: 6em;
+    margin: 0px;
+} 
+
+#suggestions_melo_h2{
+    font-size: 2em;
+}
+
+#suggestions_melo_link{
+    color: inherit  ;
+    font-size: 1.5em;   
+}
+
+#suggestions_container{
+    width: 70%;;
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggestions_container_element{
+    width: 23%;
+    text-decoration: none;
+    position: relative;
+}
+
+.suggestions_container_element_img{
+    width: 100%;
+}
+
+.suggestions_container_element_favourite{
+    height: 20px;
+    width: 20px;
+    fill: black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.suggestions_container_element_info{
+    padding-top: 15px;
+}
+
+.suggestions_container_element_info_brand{
+    font-size: 1.4em;
+    margin: 0px;
+    color: black;
+}
+
+.suggestions_container_element_info_description{
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+    color: black;
+    font-weight: 250;
+    font-size: 1.2em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.suggestions_container_element_info_price{
+    margin: 0px;
+    color: #3e3e3e;
+    font-size: 1.3em;
+}
+
+#footer{
+    font-size: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column{
+    width: 20%;
+    padding: 0px 25px;
+    margin: 25px 0px;
+    border-left: 1px solid #313E44;
+}
+
+.footer_column:first-child{
+    border-left: none;
+}
+
+.footer_column_header{
+    color: #494949;
+    margin-bottom: 4px;
+}
+
+.footer_column_link{
+    display: block;
+    text-decoration: none;
+    margin: 2px 0px;
+    color: #313E44;
+}
+
+.footer_column_link:hover{
+    font-weight: bold;
+}
+
+.footer_column_menu-query{
+    display: none;
+}
+
+@media (max-width: 1150px) {
+    body{
+        font-size: 10px;
+    }
+
+    .icons{
+        height: 25px;
+        width: 25px;
+        fill: black;
+    }
+
+    #header_first_nav{
+        width: 30%;
+    }
+
+    #header_first_nav_query{
+        display: flex;
+        align-items: center;
+    }
+
+    #header_first_nav_query_menu{
+        width: 30px;
+        height: 24px;
+        margin-right: 5px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #header_first_nav_query_menu:hover, #header_first_nav_query_search:hover{
+        cursor: pointer;
+    }
+
+    .header_first_nav_query_menu_line{
+        height: 2px;
+        width: 80%;
+        border-radius: 2px;
+        background-color: black;
+    }
+
+    #header_first_nav_list{
+        display: none;
+    }
+
+    #header_first_personal{
+        width: 30%;
+    }
+
+    #header_second{
+        display: none;
+    }
+
+    #highlighted{
+        height: auto;
+        padding: 0px;
+        margin: 15px;
+
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .highlighted_img{
+        width: 100%;
+    }
+
+    #McQueen-Primavera-Estate-2025{
+        margin-top: 15px;    
+    }
+
+    ._overlay_caption_h1{
+        font-size: 28px;
+    }
+
+    #Desert-mood_overlay{
+        top: 50%;
+    }
+
+    #McQueen-Primavera-Estate-2025{
+        width: 90%;
+    }    
+
+    #suggestions{
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #suggestions_melo{
+        margin-bottom: 30px;
+    }
+    
+    #suggestions_container{
+        width: 95%;
+        flex-basis: 25%;
+    } 
+    
+    #footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer_column{
+        width: 90%;
+        padding: 0px;
+        border: none;
+        margin: 10px 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer_column_link{
+        display: none;
+    }
+
+    .footer_column_menu-query{
+        display: inline;
+    }
+
+
+}
